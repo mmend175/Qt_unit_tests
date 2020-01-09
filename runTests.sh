@@ -1,29 +1,5 @@
 #!/bin/bash
-## ######################################################################
-##
-## Developed for NASA Glenn Research Center
-## By: Flight Software Branch (LSS)
-##
-## Project: Flow Boiling and Condensation Experiment (FBCE)
-##
-## Filename: runTests.sh
-## File Date: 20160714
-##
-## Authors **
-## Author: Kevin Hannigan 
-##         Jordan Higgins
-##         Kevin L. Rak (KLR)
-##         Matthew Mendoza
-#
-## Version and Traceability **
-## Subversion: @version $Id: runTests.sh 2015 2018-04-05 16:37:42Z mjmendo2 $
-##
-## Revision History:
-##   <Date> <Name of Change Agent>
-##   Description:
-##     - Bulleted list of changes.
-##
-## #####################################################################
+## Author   Matthew Mendoza
 
 # This is a script to run all the Qt Unit tests in this directory.
 #
