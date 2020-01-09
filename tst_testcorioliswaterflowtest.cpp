@@ -1,25 +1,5 @@
-// requirement: REQFBCE-130, REQFBCE-205
-/* **********************************************************************
-**
-** Developed for NASA Glenn Research Center
-** By: Flight Software Branch (LSS)
-**
-** Project: Flow Boiling and Condensation Experiment (FBCE)
-**
-** Filename: tst_testcorioliswaterflowtest.cpp
-** File Date: 20170117
-**
-** Authors **
-** Author: Jordan R. Higgins (JRH)
-**
-** Version and Traceability **
-** Subversion: Version $Id: tst_testcorioliswaterflowtest.cpp 1046 2017-05-23 13:53:59Z jrhiggi2 $
-**
-** Revision History:
-**   <Date> <Name of Change Agent>
-**   Description:
-**     - Bulleted list of changes.
-**
+/***
+Author- Matthew Mendoza
 ********************************************************************** */
 #include <QtTest>
 
