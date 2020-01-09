@@ -1,35 +1,14 @@
-// requirement: REQFBCE-128, REQFBCE-129, REQFBCE-130, REQFBCE-205
+
 /* **********************************************************************
-**
-** Developed for NASA Glenn Research Center
-** By: Flight Software Branch (LSS)
-**
-** Project: Flow Boiling and Condensation Experiment (FBCE)
-**
-** Filename: tst_testbit.cpp
-** File Date: 20161220
-**
-** Authors **
-** Author: Jordan R. Higgins (JRH)
-**
-** Version and Traceability **
-** Subversion: Version $Id: tst_testbit.cpp 1181 2017-08-01 21:04:21Z jrhiggi2 $
-**
-** Revision History:
-**   <Date> <Name of Change Agent>
-**   Description:
-**     - Bulleted list of changes.
+Author- Matthew Mendoza
 **
 ********************************************************************** */
 #include <QtTest>
-
 #include <bitimpl.h>
 #include <builder.h>
-#include <ecamssharedmemory.h>
 #include <functionthread.h>
 #include <mockcommands.h>
 #include <mocktest.h>
-#include <pbittwotest.h>
 
 class TestBit : public QObject
 {
@@ -41,16 +20,13 @@ private slots:
     void cleanup(); // will be called after each test function executes
     void cleanupTestCase(); // will be called after the final test function finishes
 
-    // requirement: REQFBCE-61
     void testCommandReceive();
     void testCommandSend();
     // end requirement
 
-    // requirement: REQFBCE-57
     void testConstructor();
     // end requirement
 
-    // requirement: REQFBCE-129
     void testPBitIsRunning();
     void testPBitIsRunning_data();
 
@@ -60,18 +36,15 @@ private slots:
     void testPBitStop_data();
     // end requirement
 
-    // requirement: REQFBCE-27
     void testReportingStart();
     void testReportingStart_data();
     void testReportingStop();
     void testReportingStop_data();
     // end requirement
 
-    // requirement: REQFBCE-57
     void testStartThread();
     // end requirement
 
-    // requirement: REQFBCE-128, REQFBCE-130, REQFBCE-205
     void testTestProcessingStartInvalid();
     void testTestProcessingStartQueued();
     void testTestProcessingStartValid();
